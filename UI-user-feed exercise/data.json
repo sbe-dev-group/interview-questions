@@ -1,0 +1,20 @@
+{
+  "feed": [
+    {
+      "user": "User 1",
+      "value": "Something user 1 would say...",
+      "id": 1,
+      "timestamp": "1502580722572",
+      "timeZoneOffset": "300",
+      "likes": 3
+    },
+    {
+      "user": "User 2",
+      "value": "Something user 2 did say...",
+      "id": 1,
+      "timestamp": "1502180722530",
+      "timeZoneOffset": "300",
+      "likes": 1
+    }
+  ]
+}

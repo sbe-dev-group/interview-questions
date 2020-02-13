@@ -1,0 +1,23 @@
+.title {
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
+}
+
+.title-box {
+    flex: 1 1 100%;
+    background-color: #fbfbfb47;
+    margin-top: 19px;
+    border-bottom: 1px solid #c3bfbf;
+}
+.clicakble{
+cursor: pointer;
+}

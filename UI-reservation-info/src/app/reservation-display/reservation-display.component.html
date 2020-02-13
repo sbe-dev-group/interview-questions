@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-xs-12 col-12 col-md-4 form-group">
+        <input type="text" placeholder="Filter By Date" class="form-control" [(ngModel)]="datepickerModel" bsDatepicker>
+    </div>
+</div>
+<app-list-grid (handleTotalPriceClick)="handleTotalPriceBreakDown($event)" [list]="item"
+    *ngFor="let item of list | dateFilter:datepickerModel"></app-list-grid>

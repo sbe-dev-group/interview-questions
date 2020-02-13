@@ -1,0 +1,3 @@
+Total Feed: {{users?.length}}
+<app-list-grid *ngFor="let item of users" [userFeed]="item" (likesClicked)="handleLikeClicked($event)"></app-list-grid>
+<app-tweet-box (tweet)="handleTweet($event)"></app-tweet-box>

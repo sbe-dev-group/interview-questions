@@ -1,0 +1,12 @@
+.feed {
+    padding: 15px;
+    width: 40%;
+    margin-top: 5px;
+}
+
+.user-name {
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 21px;
+}

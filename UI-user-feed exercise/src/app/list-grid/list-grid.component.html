@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="card feed">
+            <div class="card-body">
+                <h5 class="card-title">{{userFeed.user}}</h5>
+                <p class="card-text">{{userFeed.value}}</p>
+                <div class="time d-flex align-items-baseline justify-content-end">{{userFeed.timestamp}}</div>
+                <div class="time d-flex align-items-baseline justify-content-end">
+                    <i class="fas fa-thumbs-up" (click)="handleLike(userFeed.id)"></i>Likes{{userFeed.likes}}</div>
+            </div>
+        </div>
+    </div>
+</div>

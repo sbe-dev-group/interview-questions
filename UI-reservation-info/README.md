@@ -16,3 +16,16 @@
 * Clicking the price should allow user to view a breakdown of price into each day and the breakdown of room/tax/fees
 
 ## Candidate Notes
+
+* Navigate inside reservation-info directory and pull code
+* Run npm install
+* Then npm start and the app should launch on http://localhost:3000/
+
+*. Application is build with React v16
+*. Main App component is split into 3 smaller components
+	- Calendar component
+	- Home component
+	- PriceBreakDown component
+* Refresh button is added to reload and refresh the application state.
+   
+   

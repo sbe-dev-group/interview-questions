@@ -89,10 +89,8 @@ class Home extends Component {
             const currentDate = moment(selectedDay).format('MM-DD-YYYY');
 
             reservationInfo.forEach((data, index) => {
-                //console.log("data before", data);
                 const userStartDate = moment(data.startDate).format('MM-DD-YYYY');
                 const userEndDate = moment(data.endDate).format('MM-DD-YYYY');
-                //console.log("Date Range", currentDate, userStartDate, userEndDate);
                 if (currentDate === userStartDate || currentDate === userEndDate) {
                     filteredReservations.push(data);
                 } else if (currentDate >= userStartDate && currentDate <= userEndDate) {

@@ -11,7 +11,7 @@ function sortValues(data) {
     });
 }
 
-function printAllPalindromes(str) {
+function palindromeSearch(str) {
     let inputStr = str.split(' ').join('');
     let subStrings = [];
 
@@ -30,4 +30,4 @@ function printAllPalindromes(str) {
     return sortValues(subStrings)
 }
 
-console.log(printAllPalindromes('CIVIC'));
+console.log(palindromeSearch('CIVIC'));

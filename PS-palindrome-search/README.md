@@ -13,3 +13,7 @@
 ['civic', 'ivi']
 
 ## Candidate Notes
+
+* Copy the javaScript code inside the palindromeSearch.js file
+* Go to https://jsbin.com and paste the code in the JS section, you should be able to see output in the console
+* Also, params can be changed by passing to the function like for ex:- console.log(palindromeSearch('nayan'));

@@ -9,7 +9,7 @@ You will notice that there a several directories, some prefixed with UI and othe
 2. Select one UI exercise and one PS exercise you would like to work.
 3. Review instructions for each exercise in that directory's README.
 4. Commit all your work into the applicable directory and push your work to any web-based git platform (GitHub, Bitbucket.. etc.).
-5. Send in the link to your finished repo for review.
+5. Send in the link to your finished repo for review. - Do NOT create a pull request to this repo.
 
 ## Rules
 * For UI exercises, you may use any UI framework you choose, or none at all.
